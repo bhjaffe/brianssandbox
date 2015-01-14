@@ -1,0 +1,57 @@
+<doctype !html>
+  <html>
+  <head>
+    <title>Tic Tac Toe</title>
+    <link href="myttt.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>Tic Tac Toe</h1>
+      <h2>click on a box to make your move</h2>
+      <div>
+          <p id="turnMarker">x's turn</p>
+      </div>
+    </header>
+    <main id="main">
+      <table id="gameBoard">
+        <tr>
+          <td id="0" class="blank">-</td>
+          <td id="1" class="blank">-</td>
+          <td id="2" class="blank">-</td>
+        </tr>
+        <tr>
+          <td id="3" class="blank">-</td>
+          <td id="4" class="blank">-</td>
+          <td id="5" class="blank">-</td>
+        </tr>
+        <tr>
+          <td id="6" class="blank">-</td>
+          <td id="7" class="blank">-</td>
+          <td id="8" class="blank">-</td>
+        </tr>
+      </table>
+      <div id="resetHolder">
+        <div id="reset">
+          <p>reset button</p>
+        </div>
+      </div>
+      <div id="counter">
+          <table>
+              <tr>
+                  <td>x wins:</td>
+                  <td id="xwins" class="number">0</td>
+              </tr>
+              <tr>
+                  <td>o wins:</td>
+                  <td id="owins" class="number">0</td>
+              </tr>
+              <tr>
+                  <td>draws:</td>
+                  <td id="draws" class="number">0</td>
+              </tr>
+          </table>
+      </div>
+    </main>
+    <script src="myttt.js"></script>
+  </body>
+  </html>
